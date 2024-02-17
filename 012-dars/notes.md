@@ -121,7 +121,7 @@ let key = "age";
 alert( key in user ); // true, property "age" exists
 ```
 
-### Nima uchun inoperator mavjud? solishtirish kifoya emasmi undefined ga?
+### Nima uchun 'in' operator mavjud? solishtirish kifoya emasmi undefined ga?
 
 **Xo'sh, ko'pincha undefined bilan tekshirish yaxshi ishlaydi. Lekin boshqa bir holat mavjud.**
 
@@ -160,7 +160,7 @@ for (let key in user) {
 }
 ```
 
-**hunday qilib, telefon kodlari bilan bog'liq muammoni hal qilish uchun biz kodlarni butun son bo'lmagan qilib "aldashimiz" mumkin. Har bir koddan oldin ortiqcha "+"belgisini qo'shish kifoya.**
+**shunday qilib, telefon kodlari bilan bog'liq muammoni hal qilish uchun biz kodlarni butun son bo'lmagan qilib "aldashimiz" mumkin. Har bir koddan oldin ortiqcha "+"belgisini qo'shish kifoya.**
 
 ```
 let codes = {
